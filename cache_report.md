@@ -95,7 +95,7 @@ Jalankan:
 docker compose exec redis redis-cli ping
 ```
 
-[TEMPEL SCREENSHOT redis-cli ping DI SINI]
+![Docker Compose](Dokumentasi/redis-ping.png)
 
 ---
 
@@ -107,7 +107,7 @@ Jalankan:
 docker compose exec app python test_cache.py
 ```
 
-[TEMPEL SCREENSHOT output test_cache.py DI SINI]
+![Docker Compose](Dokumentasi/Hasil-test_cache.py.png)
 
 ---
 
@@ -120,7 +120,7 @@ KEYS *
 GET weather:Jakarta
 ```
 
-[TEMPEL SCREENSHOT KEYS * dan GET weather:Jakarta DI SINI]
+![Docker Compose](Dokumentasi/redis-CLI.png)
 
 ---
 
@@ -131,7 +131,7 @@ GET weather:Jakarta
 TTL weather:Jakarta
 ```
 
-[TEMPEL SCREENSHOT TTL weather:Jakarta DI SINI]
+![Docker Compose](Dokumentasi/redis-CLI.png)
 
 ---
 
