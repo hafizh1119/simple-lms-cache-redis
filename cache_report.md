@@ -75,7 +75,7 @@ Setelah 300 detik, data otomatis dihapus dari Redis.
 
 ## Hasil Pengujian
 
-### Screenshot 1 — Docker Compose PS
+### Dokumentasi 1 — Docker Compose PS
 > Membuktikan semua container berjalan: lms-app, lms-db, lms-redis
 
 Jalankan:
@@ -87,7 +87,7 @@ docker compose ps
 
 ---
 
-### Screenshot 2 — Redis Ping
+### Dokumentasi 2 — Redis Ping
 > Membuktikan Redis terinstall dan berjalan normal
 
 Jalankan:
@@ -99,7 +99,7 @@ docker compose exec redis redis-cli ping
 
 ---
 
-### Screenshot 3 — Hasil test_cache.py
+### Dokumentasi 3 — Hasil test_cache.py
 > Menunjukkan perbedaan waktu First Call (lambat) vs Second Call (cepat)
 
 Jalankan:
@@ -111,7 +111,7 @@ docker compose exec app python test_cache.py
 
 ---
 
-### Screenshot 4 — Redis CLI: KEYS * dan GET weather:Jakarta
+### Dokumentasi 4 — Redis CLI: KEYS * dan GET weather:Jakarta
 > Membuktikan data cuaca tersimpan di Redis setelah First Call
 
 ```bash
@@ -124,7 +124,7 @@ GET weather:Jakarta
 
 ---
 
-### Screenshot 5 — Redis CLI: TTL weather:Jakarta
+### Dokumentasi 5 — Redis CLI: TTL weather:Jakarta
 > Membuktikan cache memiliki masa berlaku (countdown dari 300 detik)
 
 ```bash
