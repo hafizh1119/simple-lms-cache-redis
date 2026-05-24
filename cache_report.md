@@ -83,7 +83,7 @@ Jalankan:
 docker compose ps
 ```
 
-[TEMPEL SCREENSHOT docker compose ps DI SINI]
+![Docker Compose](Dokumentasi/docker compose ps.png)
 
 ---
 
